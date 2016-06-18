@@ -75,5 +75,63 @@ ul {
   top: -1.28rem;
 }
 .article{
-  width:
+  width:63%;
+  position: relative;
+}
+.headline {
+  margin-left: 10.2rem;
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 3.15rem;
+  letter-spacing: -0.05rem;
+}
+.next-line {
+  margin-left: 10.2rem;
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -1.5rem;
+}
+.article img:first-of-type {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin-left: 10.4rem;
+  margin-top: -.35rem;
+}
+.marie {
+  text-decoration: none;
+  font-size: .8rem;
+  position: relative;
+  top: -.3rem;
+  margin-left: .18rem;
+}
+.article span:first-of-type {
+  position: relative;
+  top: -3.1px;
+  margin-left: .7rem;
+}
+.date-underline{
+  text-decoration: underline;
+  position: relative;
+  font-size: 0.87rem;
+  top: -.19rem;
+  margin-left: -.08rem;
+}
+.paragrapgh {
+  width: 39rem;
+  margin-left: 10.2rem;
+  margin-top: 2.1rem;
+  line-height: 1.55rem;
+}
+.paragrapgh a {
+  color: grey;
+}
+.bold {
+  color: #106DB3;
+  margin-left: 10.6rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  border-left: .1rem solid grey;
+  padding-left: 1.2rem;
+  padding-bottom: .4rem;
 }
