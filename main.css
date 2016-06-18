@@ -1,130 +1,79 @@
-.waves{
-  background-image: url("http://peacewave-station.com/wp-content/uploads/2014/04/wave_rush.jpg");
-  height: 523px;
-  width: 100%;
-  position: relative;
+.header {
+  background-image: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/01/murals-street-art-graffiti-sainer-bezt-etam-cru-14.jpg");
+  background-repeat:no-repeat;
+  height: 32.19rem;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: 150%;
+  padding-top:.45rem;
 }
 .logo {
-  margin-left: 8.6rem;
+  float: left;
   font-size: 1.2rem;
-  padding-top: 0rem;
-  display: -webkit-inline-box;
-  position: relative;
+  margin-left: 8.63rem;
+  padding-right: .5rem;
+
 }
 .logo-text {
-  display: inline-block;
-  margin-left: 0.34rem;
-  margin-top: 1.27rem;
-  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.038rem;
+  margin-top: 1.05rem;
+  float: left;
 }
-nav {
-  float: right;
-  top: 0px;
-  margin-right: 170px;
-  margin-right: 165px;
-}
-ul{
+ul {
   list-style-type: none;
+  float: left;
   display: inline-flex;
-  font-size: 18px;
-  font-family: Oswald;
-  position: relative;
-}
-.fa.fa-search.fa-flip-horizontal {
-  margin-right: 3px;
-  position: relative;
-  top: -4px;
+  margin: 0rem;
+  margin-left: 34.95rem;
 }
 .about {
-  margin-right: .9rem;
   font-family: 'Oswald', sans-serif;
-
+  font-size: 1.1rem;
+  margin-top: .6rem;
 }
 .about a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 .search {
-  margin-right: .3rem;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  margin-top: .6rem;
+  margin-left: 1rem;
 }
 .search a {
+  color: black;
   text-decoration: none;
-  color: black;
 }
-.search-icon {
+.search-i{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  margin-top: .8rem;
+  margin-left: 0.45rem;
+}
+.fa.fa-search.fa-flip-horizontal {
   color: black;
+  margin-top: .8rem;
+  margin-left: 0.45rem;
+}
+
+.web-title {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 11.27rem;
 }
 .title {
-  font-size: 6.4rem;
-  color: white;
+  font-size: 6.6rem;
   text-align: center;
-  margin-top: 9.5rem;
-  font-family: 'Open Sans', sans-serif;
-  position: relative;
-  bottom: 18px;
-  letter-spacing: -0.17rem;
-
+  margin-top: 11.14rem;
+  letter-spacing: -.28rem;
 }
-.title-description{
-  color: black;
+.title-description {
   text-align: center;
+  letter-spacing: -.015rem;
   position: relative;
-  top: -2.2rem;
+  top: -1.28rem;
 }
-.article {
-  width: 51.5rem;
-
-}
-.headline {
-  font-family: 'Oswald', sans-serif;
-  font-size: 4.03rem;
-  text-align: center;
-  padding-top: 3.04rem;
-  padding-left: 3.59rem;
-}
-.next-line {
-  position: relative;
-  font-family: 'Oswald', sans-serif;
-  font-size: 4.03rem;
-  text-align: center;
-  padding-left: 1.5rem;
-  top: -1.6rem;
-}
-img {
-  border-radius: 100%;
-  height: 1.4rem;
-  width: 1.35rem;
-  margin-left: 10.4rem;
-  position: relative;
-  top: -2rem;
-}
-.marie {
-  font-size: .8rem;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  position:relative;
-  top: -2.2rem;
-  margin-left: .3rem;
-}
-span{
-  position: relative;
-font-size: .8rem;
-top: -2.15rem;
-left: .7rem;
-}
-.date-underline {
-  text-decoration:underline;
-}
-.1st{
-
-}
-.2nd{
-
-}
-.3rd{
-
-}
-.4th{
-  
+.article{
+  width:
 }
