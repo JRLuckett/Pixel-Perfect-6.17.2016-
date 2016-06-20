@@ -1,5 +1,8 @@
-.header {
-  background-image: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/01/murals-street-art-graffiti-sainer-bezt-etam-cru-14.jpg");
+.header{
+  background: linear-gradient(
+      rgba(0, 75, 200, 0.45),
+      rgba(0, 75, 200, 0.45)
+    ), url("http://static.boredpanda.com/blog/wp-content/uploads/2014/01/murals-street-art-graffiti-sainer-bezt-etam-cru-14.jpg");
   background-repeat:no-repeat;
   height: 32.19rem;
   background-position:center;
@@ -19,10 +22,11 @@
   margin-top: 1.05rem;
   float: left;
 }
-ul {
+ .about-search {
   list-style-type: none;
   float: left;
   display: inline-flex;
+  position: relative;
   margin: 0rem;
   margin-left: 34.95rem;
 }
@@ -35,6 +39,9 @@ ul {
   color: black;
   text-decoration: none;
 }
+.about a:hover {
+  color: blue;
+}
 .search {
   font-family: 'Oswald', sans-serif;
   font-size: 1.1rem;
@@ -45,6 +52,9 @@ ul {
   color: black;
   text-decoration: none;
 }
+.search a:hover {
+  color: blue;
+}
 .search-i{
   font-family: 'Oswald', sans-serif;
   font-size: 1.1rem;
@@ -54,7 +64,11 @@ ul {
 .fa.fa-search.fa-flip-horizontal {
   color: black;
   margin-top: .8rem;
-  margin-left: 0.45rem;
+  position: relative;
+  top: -.8rem;
+}
+.fa.fa-search.fa-flip-horizontal:hover {
+  color: blue;
 }
 
 .web-title {
@@ -74,11 +88,19 @@ ul {
   position: relative;
   top: -1.28rem;
 }
+.container {
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: solid gray 1px;
+  padding-bottom: 2.85rem;
+}
 .article{
   width:63%;
   position: relative;
+  flex: 1;
 }
 .headline {
+  color: #083452;
   margin-left: 10.2rem;
   font-size: 4rem;
   font-family: 'Oswald', sans-serif;
@@ -86,6 +108,7 @@ ul {
   letter-spacing: -0.05rem;
 }
 .next-line {
+  color: #083452;
   margin-left: 10.2rem;
   font-size: 4rem;
   font-family: 'Oswald', sans-serif;
@@ -134,4 +157,230 @@ ul {
   border-left: .1rem solid grey;
   padding-left: 1.2rem;
   padding-bottom: .4rem;
+}
+.side-bar{
+  width: 37%;
+  flex: 1;
+  position: relative;
+}
+.aside-marie img{
+  width:5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  margin-top: 5.2rem;
+  margin-left: 10.75rem;
+  border: solid 1px gray;
+}
+.aside-name {
+  display: -webkit-inline-box;
+  margin-left: 10.3rem;
+  margin-top: .6rem;
+  color: blue;
+}
+.social-media {
+  margin-left: 4.8rem;
+  list-style-type: none;
+  display: -webkit-box;
+  margin-top: 0;
+}
+.social-media li {
+  padding: 0rem,2rem;
+}
+.social-media li a{
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
+  letter-spacing: .1rem;
+  padding-right: 1.1rem;
+}
+
+.add {
+  margin-left: 4.6rem;
+  margin-top: 3.3rem;
+  width: 17.4rem;
+  height: 18.8rem;
+  overflow: hidden;
+}
+.add img {
+  width: 17.4rem;
+}
+.side-bar > a{
+  color: gray;
+  margin-left: 16.6rem;
+  font-size: .8rem;
+  position: relative;
+  top: .38rem;
+  letter-spacing: .03rem;
+}
+.aside-header {
+font-family: 'Oswald', sans-serif;
+color: blue;
+margin-left: 4.6rem;
+margin-top: 3.15rem;
+font-size: 1.1rem;
+letter-spacing: .01rem;
+}
+.side-bar p {
+  width:18rem;
+  margin-left: 4.6rem;
+  margin-top: .3rem;
+  font-size: .95rem;
+  line-height: 1.4rem;
+}
+.footer-heading {
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  display: inline-block;
+  margin-left: 22.8rem;
+  margin-top: 1.5rem;
+  font-size: 4rem;
+}
+.footer-posts{
+  display: inline-flex;
+  width: 100%;
+  width: 100%;
+  height: 20.6rem;
+  margin-top: 1.8rem;
+}
+.initial{
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  background: linear-gradient(
+      rgba(0, 75, 200, 0.45),
+      rgba(0, 75, 200, 0.45)
+    ), url("https://s-media-cache-ak0.pinimg.com/736x/c9/bc/49/c9bc499ccfa524e69c3d4c8ee2920e76.jpg");
+  background-size: 20rem, 20rem;
+  background-position: center;
+}
+.next {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  background-image: url("http://1.bp.blogspot.com/-x-uQVKLlqlw/Ue1fhuOdRYI/AAAAAAAAsVA/WCqkQS8NB4w/s1600/streetartnews_dome_poland-3.jpg");
+  background-size: 20rem, 20rem;
+  background-position: center;
+}
+.next-flex{
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  background: linear-gradient(
+      rgba(0, 75, 200, 0.45),
+      rgba(0, 75, 200, 0.45)
+    ), url("https://s-media-cache-ak0.pinimg.com/736x/6c/b6/c5/6cb6c522627091e8bbdf752528f01212.jpg");
+  background-size: 22rem, 22rem;
+}
+.last{
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  background: linear-gradient(
+      rgba(0, 75, 200, 0.45),
+      rgba(0, 75, 200, 0.45)
+    ), url("http://1.bp.blogspot.com/-7QYZFRqPvsA/VATJijuM4kI/AAAAAAAAa4U/hD-LHYopru0/s1600/1614522_637462866368676_5660824226930031251_o.jpg");
+  background-size: 30rem, 30rem;
+  background-position: bottom;
+}
+.initial a{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #6B225B;
+  top: 17.5rem;
+  font-size: 1.7rem;
+  left: 1rem;
+  letter-spacing: .07rem;
+}
+.next a{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #eee;
+  top: 17.5rem;
+  font-size: 1.7rem;
+  left: 1rem;
+  letter-spacing: .07rem;
+}
+.next-flex a{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #6B225B;
+  top: 15.1rem;
+  font-size: 1.7rem;
+  left: 1rem;
+  letter-spacing: .07rem;
+
+}
+.last a{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #6B225B;
+  top: 17.5rem;
+  font-size: 1.7rem;
+  left: 1rem;
+  letter-spacing: .07rem;
+}
+.bottom-nav{
+  width: 100%;
+  height: 6rem;
+  background-color: #083452;
+}
+.iron-yard {
+  display: inline-block;
+}
+.iron-yard img{
+  margin-left: 9.2rem;
+  margin-top: .25rem;
+  width: 5rem;
+}
+.bottom-nav nav{
+  display: inline-flex;
+  position: relative;
+}
+.copyright {
+  display: inline;
+  color: white;
+  font-size: .84rem;
+  position: relative;
+  bottom: 1.99rem;
+  right: .5rem;
+}
+.final-nav {
+  position: relative;
+  left: 33.4rem;
+    top: -3.05rem;
+}
+.item-one a {
+  text-decoration: none;
+  color: gray;
+  border-right: solid gray 1px;
+  margin-left: 17.8rem;
+  font-size: .85rem;
+  padding-right: .6rem;
+}
+.item-two a {
+  text-decoration: none;
+  color: gray;
+  border-right: solid gray 1px;
+  margin-left: .5rem;
+  font-size: .85rem;
+  padding-right: .6rem;
+}
+.item-three a {
+  text-decoration: none;
+  color: gray;
+  border-right: solid gray 1px;
+  margin-left: .5rem;
+  font-size: .85rem;
+  padding-right: .6rem;
+}
+.item-four a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 10.5rem;
+  font-size: .85rem;
+  padding-left: .6rem;
 }
